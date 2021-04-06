@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Form name="formAndroidBluetooth.tmp" build="3.20.11" text="Access to Android API" width="75" height="6">
+  <LStr text="Access to Android API"/>
+  <Group name="group1" text="Using Bluetooth Android API...">
+    <LStr text="Using Bluetooth Android API..."/>
+    <Grid name="grid1" width="75" height="6">
+      <Label name="label1" width="30" text="Bluetooth adapter name" posY="0" posX="2" gridWidth="30">
+        <LStr text="Bluetooth adapter name"/>
+      </Label>
+      <FormField name="formonly.ba_name" colName="ba_name" fieldId="0" sqlTabName="formonly" noEntry="1" tabIndex="1">
+        <Label width="41" posY="0" posX="33" gridWidth="41"/>
+      </FormField>
+      <Table pageSize="3" name="table1" width="74" posY="1" posX="1" gridWidth="74" gridHeight="5" tabName="list">
+        <TableColumn name="formonly.name" colName="name" fieldId="1" sqlTabName="formonly" noEntry="1" tabIndex="2">
+          <Label width="30"/>
+        </TableColumn>
+        <TableColumn name="formonly.comment" colName="comment" fieldId="2" sqlTabName="formonly" noEntry="1" tabIndex="3">
+          <Label width="41"/>
+        </TableColumn>
+      </Table>
+    </Grid>
+  </Group>
+  <RecordView tabName="formonly">
+    <Link colName="ba_name" fieldIdRef="0"/>
+    <Link colName="name" fieldIdRef="1"/>
+    <Link colName="comment" fieldIdRef="2"/>
+  </RecordView>
+  <RecordView tabName="record1">
+    <Link colName="ba_name" fieldIdRef="0"/>
+  </RecordView>
+</Form>

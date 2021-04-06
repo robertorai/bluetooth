@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm fileVersion="31400" gstVersion="31409" name="ManagedForm" uid="{a7ca064c-d1ff-41c3-bb61-8f95ec402e21}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record name="list" uid="{bf87c132-abb0-40e6-bd8f-f71021ab0291}">
+    <RecordField colName="name" fieldIdRef="1" name="name" sqlTabName="formonly" uid="{10b783a4-7aa8-4125-9377-9de1b9276205}"/>
+    <RecordField colName="comment" fieldIdRef="2" name="comment" sqlTabName="formonly" uid="{0ccacc16-aa5b-4b23-8324-4010f45833f8}"/>
+  </Record>
+  <Record name="record1" uid="{30829c60-82f7-4678-8107-4d9c71a9ea5c}">
+    <RecordField colName="ba_name" fieldIdRef="0" name="ba_name" sqlTabName="formonly" uid="{ff06b53b-72bc-4236-a745-a95f4090b097}"/>
+  </Record>
+  <Form gridHeight="8" gridWidth="77" name="formAndroidBluetooth" text="Access to Android API">
+    <Group gridHeight="8" gridWidth="77" name="group1" posX="0" posY="0" text="Using Bluetooth Android API...">
+      <Grid gridHeight="6" gridWidth="75" name="grid1" posX="1" posY="1">
+        <Label gridHeight="1" gridWidth="30" name="label1" posX="2" posY="0" text="Bluetooth adapter name"/>
+        <FFLabel colName="ba_name" fieldId="0" gridHeight="1" gridWidth="41" name="ba_name" posX="33" posY="0" sqlTabName="formonly" widget="FFLabel"/>
+        <Table gridHeight="5" gridWidth="74" name="table1" posX="1" posY="1" totalRows="3" unitWidth="characters" width="74">
+          <FFLabel colName="name" fieldId="1" gridHeight="1" gridWidth="30" name="name" posX="0" posY="0" sqlTabName="formonly" widget="FFLabel"/>
+          <FFLabel colName="comment" fieldId="2" gridHeight="1" gridWidth="41" name="comment" posX="30" posY="0" sqlTabName="formonly" widget="FFLabel"/>
+        </Table>
+      </Grid>
+    </Group>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBiAGYAOAA3AGMAMQAzADIALQBhAGIAYgAwAC0ANAAwAGUANgAtAGIAZAA4AGYALQBmADcAMQAwADIAMQBhAGIAMAAyADkAMQB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEwAewAzADAAOAAyADkAYwA2ADAALQA4ADIAZgA3AC0ANAA2ADcAOAAtADgAMQAwADcALQA0AGQAOQBjADcAMQBhADkAZQBhADUAYwB9QCAAAAQAAABAIAAABAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

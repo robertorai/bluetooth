@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Form name="formJavaStandard.tmp" build="3.20.11" text="Access to Android API" width="65" height="2">
+  <LStr text="Access to Android API"/>
+  <Group name="group1" text="Using standard JDK API...">
+    <LStr text="Using standard JDK API..."/>
+    <Grid name="grid1" width="65" height="2">
+      <Label name="label1" width="26" text="Number of processors available" posY="0" posX="1" gridWidth="26">
+        <LStr text="Number of processors available"/>
+      </Label>
+      <FormField name="formonly.nb_proc" colName="nb_proc" fieldId="0" sqlTabName="formonly" noEntry="1" tabIndex="1">
+        <Label width="36" posY="0" posX="28" gridWidth="36"/>
+      </FormField>
+    </Grid>
+  </Group>
+  <RecordView tabName="formonly">
+    <Link colName="nb_proc" fieldIdRef="0"/>
+  </RecordView>
+  <RecordView tabName="record1">
+    <Link colName="nb_proc" fieldIdRef="0"/>
+  </RecordView>
+</Form>

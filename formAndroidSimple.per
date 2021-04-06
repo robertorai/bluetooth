@@ -1,0 +1,22 @@
+LAYOUT (TEXT="Access to Android API")
+GROUP group1(TEXT="Using simple Android API...")
+GRID grid1
+{
+[l1                        |f1                                  ]
+[l2                        |f2                                  ]
+[l3                        |f3                                  ]
+[l4                        |f4                                  ]
+}
+END
+END
+
+ATTRIBUTES
+LABEL l1 : label1, TEXT="Device manufacturer";
+LABEL f1 = FORMONLY.manufacturer;
+LABEL l2 : label2, TEXT="Device model";
+LABEL f2 = FORMONLY.model;
+LABEL l3 : label3, TEXT="Device serial number";
+LABEL f3 = FORMONLY.serial;
+LABEL l4 : label4, TEXT="Device screen dimension";
+LABEL f4 = FORMONLY.diagonal;
+END

@@ -1,0 +1,24 @@
+LAYOUT (TEXT="Access to Android API")
+GROUP group1(TEXT="Using Bluetooth Android API...")
+GRID grid1
+{
+[l1                            |f1                                       ]
+<TABLE t                                                                 >
+[c1                            |c2                                       ]
+[c1                            |c2                                       ]
+[c1                            |c2                                       ]
+<                                                                        >
+}
+END
+END
+
+ATTRIBUTES
+LABEL l1 : label1, TEXT="Bluetooth adapter name";
+LABEL f1 = FORMONLY.ba_name;
+LABEL c1 = FORMONLY.name;
+LABEL c2 = FORMONLY.comment;
+END
+
+INSTRUCTIONS
+SCREEN RECORD list(FORMONLY.name, FORMONLY.comment);
+END

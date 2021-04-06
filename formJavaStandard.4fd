@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm fileVersion="31400" gstVersion="31409" name="ManagedForm" uid="{5d387d1f-bae7-40ed-b260-7087b5cd3117}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record name="record1" uid="{21b102f0-bc69-410e-b51d-ae01e724beef}">
+    <RecordField colName="nb_proc" fieldIdRef="0" name="nb_proc" sqlTabName="formonly" uid="{0810d48c-e0be-43a3-8b5d-3d88bae6719e}"/>
+  </Record>
+  <Form gridHeight="4" gridWidth="66" name="formJavaStandard" text="Access to Android API">
+    <Group gridHeight="4" gridWidth="66" name="group1" posX="0" posY="0" text="Using standard JDK API...">
+      <Grid gridHeight="2" gridWidth="64" name="grid1" posX="1" posY="1">
+        <Label gridHeight="1" gridWidth="26" name="label1" posX="1" posY="0" text="Number of processors available"/>
+        <FFLabel colName="nb_proc" fieldId="0" gridHeight="1" gridWidth="36" name="nb_proc" posX="28" posY="0" sqlTabName="formonly" widget="FFLabel"/>
+      </Grid>
+    </Group>
+  </Form>
+</ManagedForm>

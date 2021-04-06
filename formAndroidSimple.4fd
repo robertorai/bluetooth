@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm fileVersion="31400" gstVersion="31409" name="ManagedForm" uid="{d3a4118f-e2ad-4ee4-b859-95253a60d492}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record name="record1" uid="{6f67b7c1-63b0-4e2a-9821-c9aa89341247}">
+    <RecordField colName="manufacturer" fieldIdRef="0" name="manufacturer" sqlTabName="formonly" uid="{a90dc084-1357-4a60-9fc3-73454b3d666e}"/>
+    <RecordField colName="model" fieldIdRef="1" name="model" sqlTabName="formonly" uid="{ede410ad-08c4-485f-b971-de2458900a2d}"/>
+    <RecordField colName="serial" fieldIdRef="2" name="serial" sqlTabName="formonly" uid="{d3bf6dab-568c-421e-8200-2387940a2461}"/>
+    <RecordField colName="diagonal" fieldIdRef="3" name="diagonal" sqlTabName="formonly" uid="{59ac25b7-fdf5-4fe5-a119-6dcdc183217b}"/>
+  </Record>
+  <Form gridHeight="6" gridWidth="66" name="formAndroidSimple" text="Access to Android API">
+    <Group gridHeight="6" gridWidth="66" name="group1" posX="0" posY="0" text="Using simple Android API...">
+      <Grid gridHeight="4" gridWidth="64" name="grid1" posX="1" posY="1">
+        <Label gridHeight="1" gridWidth="26" name="label1" posX="1" posY="0" text="Device manufacturer"/>
+        <FFLabel colName="manufacturer" fieldId="0" gridHeight="1" gridWidth="36" name="manufacturer" posX="28" posY="0" sqlTabName="formonly" widget="FFLabel"/>
+        <Label gridHeight="1" gridWidth="26" name="label2" posX="1" posY="1" text="Device model"/>
+        <FFLabel colName="model" fieldId="1" gridHeight="1" gridWidth="36" name="model" posX="28" posY="1" sqlTabName="formonly" widget="FFLabel"/>
+        <Label gridHeight="1" gridWidth="26" name="label3" posX="1" posY="2" text="Device serial number"/>
+        <FFLabel colName="serial" fieldId="2" gridHeight="1" gridWidth="36" name="serial" posX="28" posY="2" sqlTabName="formonly" widget="FFLabel"/>
+        <Label gridHeight="1" gridWidth="26" name="label4" posX="1" posY="3" text="Device screen dimension"/>
+        <FFLabel colName="diagonal" fieldId="3" gridHeight="1" gridWidth="36" name="diagonal" posX="28" posY="3" sqlTabName="formonly" widget="FFLabel"/>
+      </Grid>
+    </Group>
+  </Form>
+</ManagedForm>

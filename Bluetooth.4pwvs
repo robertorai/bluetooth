@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceViewState version="1.0">
+  <ExpandedNodes>
+    <Node path="Bluetooth.4pw" type="pm/main-project"/>
+    <Node path="Bluetooth.4pw/Project" type="pm/group"/>
+    <Node path="Bluetooth.4pw/Project/Application" type="pm/application"/>
+    <Node path="Bluetooth.4pw/Project/Config" type="pm/library"/>
+    <Node path="Bluetooth.4pw/Project/Database" type="pm/library"/>
+    <Node path="Bluetooth.4pw/Project/Resources" type="pm/library"/>
+  </ExpandedNodes>
+  <OpenDocuments>
+    <Document container="true" filePath="formAndroidBluetooth.4fd" locator="" module="mod-fd"/>
+    <Document container="true" filePath="src/main.4gl" locator="30:1:36:18" module="mod-ce3">
+      <Data name="8" value="CP1252"/>
+    </Document>
+  </OpenDocuments>
+  <CurrentDocument filePath="src/main.4gl" module="mod-ce3"/>
+</WorkspaceViewState>

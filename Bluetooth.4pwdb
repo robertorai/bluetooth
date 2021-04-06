@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceDatabase fileContentsEncoding="fglutf8" version="3.0">
+<File n="src/main.4gl" s="2" ts="20210331104153683">
+<Fct c="10" el="137" l="103" n="androidApiAccess_bluetooth()" t="F" v="pub"/>
+<Fct c="10" el="101" l="59" n="androidApiAccess_android_simple()" t="F" v="pub"/>
+<Fct c="10" el="57" l="41" n="androidApiAccess_java_standard()" t="F" v="pub"/>
+<Fct c="10" el="39" l="28" n="androidApiAccess()" t="F" v="pub">
+<Call c="9" l="31" n="androidApiAccess_java_standard" t="F"/>
+<Call c="9" l="33" n="androidApiAccess_android_simple" t="F"/>
+<Call c="9" l="35" n="androidApiAccess_bluetooth" t="F"/>
+</Fct>
+<Fct c="1" el="26" l="17" n="main()" t="F" v="pub">
+<Call c="9" l="20" n="androidApiAccess" t="F"/>
+</Fct>
+</File>
+</WorkspaceDatabase>

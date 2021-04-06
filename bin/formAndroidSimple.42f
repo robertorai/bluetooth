@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Form name="formAndroidSimple.tmp" build="3.20.11" text="Access to Android API" width="65" height="4">
+  <LStr text="Access to Android API"/>
+  <Group name="group1" text="Using simple Android API...">
+    <LStr text="Using simple Android API..."/>
+    <Grid name="grid1" width="65" height="4">
+      <Label name="label1" width="26" text="Device manufacturer" posY="0" posX="1" gridWidth="26">
+        <LStr text="Device manufacturer"/>
+      </Label>
+      <FormField name="formonly.manufacturer" colName="manufacturer" fieldId="0" sqlTabName="formonly" noEntry="1" tabIndex="1">
+        <Label width="36" posY="0" posX="28" gridWidth="36"/>
+      </FormField>
+      <Label name="label2" width="26" text="Device model" posY="1" posX="1" gridWidth="26">
+        <LStr text="Device model"/>
+      </Label>
+      <FormField name="formonly.model" colName="model" fieldId="1" sqlTabName="formonly" noEntry="1" tabIndex="2">
+        <Label width="36" posY="1" posX="28" gridWidth="36"/>
+      </FormField>
+      <Label name="label3" width="26" text="Device serial number" posY="2" posX="1" gridWidth="26">
+        <LStr text="Device serial number"/>
+      </Label>
+      <FormField name="formonly.serial" colName="serial" fieldId="2" sqlTabName="formonly" noEntry="1" tabIndex="3">
+        <Label width="36" posY="2" posX="28" gridWidth="36"/>
+      </FormField>
+      <Label name="label4" width="26" text="Device screen dimension" posY="3" posX="1" gridWidth="26">
+        <LStr text="Device screen dimension"/>
+      </Label>
+      <FormField name="formonly.diagonal" colName="diagonal" fieldId="3" sqlTabName="formonly" noEntry="1" tabIndex="4">
+        <Label width="36" posY="3" posX="28" gridWidth="36"/>
+      </FormField>
+    </Grid>
+  </Group>
+  <RecordView tabName="formonly">
+    <Link colName="manufacturer" fieldIdRef="0"/>
+    <Link colName="model" fieldIdRef="1"/>
+    <Link colName="serial" fieldIdRef="2"/>
+    <Link colName="diagonal" fieldIdRef="3"/>
+  </RecordView>
+  <RecordView tabName="record1">
+    <Link colName="manufacturer" fieldIdRef="0"/>
+    <Link colName="model" fieldIdRef="1"/>
+    <Link colName="serial" fieldIdRef="2"/>
+    <Link colName="diagonal" fieldIdRef="3"/>
+  </RecordView>
+</Form>
